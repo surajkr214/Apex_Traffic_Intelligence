@@ -1,0 +1,16 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment 
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# We will instruct users to download this separately in the README
+*.pt
+
+# VS Code settings
+.vscode/

@@ -6,7 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red)
 
 ## 🔗 Live Demo
-**[Click here to use the Live Traffic Dashboard](https://apex-traffic-intelligence.streamlit.app)**
+**[PROTOTYPE](https://apex-traffic-intelligence.streamlit.app)**
 
 ## 📋 Executive Summary
 Developed for **Apex Research**, this project utilizes Computer Vision and Deep Learning to automate traffic data acquisition. By leveraging **YOLOv8** and the **VisDrone dataset**, the system detects, classifies, and counts vehicles in real-time to assist transportation authorities in congestion management and infrastructure planning.
@@ -22,6 +22,9 @@ Developed for **Apex Research**, this project utilizes Computer Vision and Deep 
 Apex_Traffic_Project/
 ├── app.py                  # Main Streamlit Dashboard application
 ├── Model_Training.ipynb    # Jupyter Notebook for Data Prep & Model Training
-├── requirements.txt        # Project dependencies
-├── apex_traffic_best.pt    # Trained Model Weights (Download separately)
+├── requirements.txt        # Python dependencies
+├── packages.txt            # System dependencies (Linux libraries)
+├── apex_traffic_best.pt    # Trained Model Weights
+├── docs/
+│   └── Apex_Traffic_Report.pdf  # Final Project Report (PDF)
 └── README.md               # Project Documentation

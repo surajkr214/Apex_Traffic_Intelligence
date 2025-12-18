@@ -1,5 +1,5 @@
-ultralytics 
 streamlit
-opencv-python
-pandas 
+ultralytics
+opencv-python-headless
+pandas
 plotly
